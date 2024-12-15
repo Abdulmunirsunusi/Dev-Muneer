@@ -1,0 +1,314 @@
+@media (max-width:420px) {
+    *{
+        font-family: calibri;
+        margin: 0;
+    }
+    #header{
+        display: flex;
+        justify-content: space-around;
+        height: 5em;
+        align-items: center;
+        color: #000000;
+     }
+     .dropbtn{
+       margin-left: 15em;
+     
+     }
+     .dropbtn img{
+         width: 30px;
+         margin-right: 10px;
+     }
+     #logo h2{
+      margin-left: 10px;
+     }
+     .dropdown {
+       position: relative;
+       display: inline-block;
+     }
+     
+     .dropdown-content {
+       display: none;
+       position: absolute;
+       background-color: #f9f9f9;
+       width: 10em;
+       height: 50em;
+       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+       z-index: 1;
+       margin-left: 7.2em;
+       border-radius: 20px;
+     }
+     
+     .dropdown-content a {
+       color: black;
+       padding: 12px 16px;
+       text-decoration: none;
+       display: block;
+     }
+     
+     .dropdown-content a:hover {background-color: #f1f1f1; border-radius: 20px;}
+     
+     .dropdown:hover .dropdown-content {
+       display: block;
+     }
+     header{
+        background-color: rgb(140, 0, 255);
+        height: 33.7em;
+        border-radius: 30px;
+        width: 23em;
+        margin-left: 0.8em;
+        transform: rotate(0.5deg);
+     }
+     .contact img{
+        width: 1em;
+        height: 1em;
+        background-color: rgb(140, 0, 255);
+        border-radius: 100%;
+        padding: 5px;
+    }
+    .contact{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .contact:hover{
+        background-color: #f1f1f1; border-radius: 20px;
+    }
+    .txt{
+        display: flex;
+        margin-left: 2em;
+        margin-top: 20px;
+        color: #ffffff;
+    }
+    .txt span{
+        font-size: 13px; 
+    }
+    .text{
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+        color: #ffffff;
+    }
+    .Visit{
+      background-color: rgb(140, 0, 255);
+      border: none;
+      border: 1px solid #ffffff;
+      border-radius: 7px;
+      padding: 3px;
+      color: #ffffff;
+    }
+    .activities{
+      background-color: yellow;
+      border: none;
+      border-radius: 7px;
+      padding: 8px;
+      margin-left: 10em;
+      margin-top: 10px;
+    }
+    .the_boy img{
+      width: 20em;
+      margin-left: 3em;
+    }
+    #courses h2{
+      text-align: center;
+    }
+    .box1{
+      text-align: center;
+      margin-top: 10px;
+      background-color: rgb(219, 222, 236);
+      border-radius: 20px;
+      width: 20em;
+      margin-left: 2em;
+    }
+    .box2, .box3, .box4{
+      text-align: center;
+      background-color: rgb(219, 222, 236);
+      border-radius: 20px;
+      width: 20em;
+      margin-left: 2em;
+    }
+    .box5{
+      text-align: center;
+      background-color: rgb(219, 222, 236);
+      border-radius: 20px;
+      width: 23em;
+      margin-left: 0.7em;
+    }
+    .famours1{
+      text-align: center;
+      margin-top: 10px;
+      background-color: rgb(140, 0, 255);
+      color: #ffffff;
+      border-radius: 20px;
+      width: 21.5em;
+      margin-left: 0.7em;
+      padding: 10px;
+    }
+    .famours1 img{
+      width: 6em;
+      height: 5em;
+      border-radius: 100%;
+    }
+    .display{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+    .button1{
+      background-color:rgb(140, 0, 255);
+      border: none;
+      border: 1px solid #ffffff;
+      border-radius: 7px;
+      color: #ffffff;
+    }
+    .button22{
+      background-color: #ffffff;
+      color: #000000;
+      border: none;
+      border-radius: 7px;
+    }
+
+    .famours2{
+      text-align: center;
+      margin-top: 10px;
+      background-color: rgb(249, 112, 63);
+      color: #ffffff;
+      border-radius: 20px;
+      width: 21.5em;
+      margin-left: 0.7em;
+      padding: 10px;
+    }
+    .famours2 img{
+      width: 6em;
+      height: 5em;
+      border-radius: 100%;
+    }
+    .display{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+    .button2{
+      background-color:rgb(249, 112, 63);
+      border: none;
+      border: 1px solid #ffffff;
+      border-radius: 7px;
+      color: #ffffff;
+    }
+    .button3{
+      background-color: #ffffff;
+      color: #000000;
+      border: none;
+      border-radius: 7px;
+    }
+    .famours3{
+      text-align: center;
+      margin-top: 10px;
+      background-color: rgb(87, 186, 87);
+      color: #ffffff;
+      border-radius: 20px;
+      width: 21.5em;
+      margin-left: 0.7em;
+      padding: 10px;
+    }
+    .famours3 img{
+      width: 6em;
+      height: 5em;
+      border-radius: 100%;
+    }
+    .display{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+    .button4{
+      background-color:rgb(87, 186, 87);
+      border: none;
+      border: 1px solid #ffffff;
+      border-radius: 7px;
+      color: #ffffff;
+    }
+    .button5{
+      background-color: #ffffff;
+      color: #000000;
+      border: none;
+      border-radius: 7px;
+    }
+    .famours4{
+      text-align: center;
+      margin-top: 10px;
+      background-color: rgb(161, 42, 161);
+      color: #ffffff;
+      border-radius: 20px;
+      width: 21.5em;
+      margin-left: 0.7em;
+      padding: 10px;
+    }
+    .famours4 img{
+      width: 6em;
+      height: 5em;
+      border-radius: 100%;
+    }
+    .display{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+    .button6{
+      background-color:rgb(161, 42, 161);
+      border: none;
+      border: 1px solid #ffffff;
+      border-radius: 7px;
+      color: #ffffff;
+    }
+    .button7{
+      background-color: #ffffff;
+      color: #000000;
+      border: none;
+      border-radius: 7px;
+    }
+    .details{
+      background-color:rgb(140, 0, 255);
+      width: 20em;
+      margin-left: 1em;
+      justify-content: space-evenly;
+      padding: 20px;
+      border-radius: 20px;
+      margin-top: 30px;
+      color: #FFFFFF;
+  }
+  .details button{
+      background-color: yellow;
+      border: none;
+      width: 15.3em;
+      height: 2.5em;
+      border-radius: 20px;
+      margin-left: 4em;
+  }
+  .details input{
+      border: none;
+      width: 15em;
+      height: 2.5em;
+      border-radius: 20px;
+      outline: none;
+      margin-left: 4em;
+  }
+  .h1{
+      text-align: center;
+      margin-top: 20px;
+  }
+  .details2 p{
+      color: rgb(172, 168, 168);
+      font-size: 12px;
+      text-align: center;
+  }
+  .details1{
+    text-align: center;
+  }
+  footer{
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+}
+}
